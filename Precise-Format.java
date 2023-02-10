@@ -5,6 +5,7 @@ class Geeks {
 	static void printInFormat(float a, float b) {
 		float result = a/b;
 		
+		System.out.print(result+" ");
 		System.out.format("%1.3f",result);
 	}
 }
